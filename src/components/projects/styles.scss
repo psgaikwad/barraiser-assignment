@@ -1,0 +1,36 @@
+.projects-container {
+	display: flex;
+}
+
+.projects-section {
+	padding: 20px;
+	width: 100%;
+}
+
+.project {
+	border: 1px solid #dedede;
+	border-radius: 2px;
+	margin: 12px 0;
+	padding: 16px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.project-name {
+		font-size: 20px;
+		color: #09c8bf;
+	}
+
+	.project-duration {
+		font-size: 18px;
+		font-weight: 600;
+		color: #131d38;
+		margin-right: 12px;
+	}
+
+	.project-right-section {
+		display: flex;
+		align-items: center;
+	}
+}

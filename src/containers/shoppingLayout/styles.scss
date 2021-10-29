@@ -1,0 +1,36 @@
+.timer-container {
+	display: flex;
+}
+
+.timer-section {
+	padding: 20px;
+	width: 100%;
+
+	border: 1px solid #dedede;
+	border-radius: 2px;
+	margin: 12px 0;
+	padding: 16px;
+
+	.create-project {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.project-timings-log {
+	border-top: 1px solid #dedede;
+
+}
+
+.create-project {
+	padding: 20px;
+
+	.project-id-input {
+		margin: 20px 0;
+	}
+
+	.project-id-btn {
+		margin-top: 20px;
+		float: right;
+	}
+}
